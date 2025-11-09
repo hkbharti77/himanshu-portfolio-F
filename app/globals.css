@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+/* Custom color variables */
+:root {
+  --bg-deep: #0B1020;  /* midnight indigo */
+  --ink: #FDE68A;      /* mithila parchment tint for text-muted */
+  --rose: #E11D48;     /* madhubani pink/rose */
+  --haldi: #F59E0B;    /* turmeric orange */
+  --paan: #22C55E;     /* leaf green */
+  --peacock: #06B6D4;  /* peacock blue */
+  --cream: #FFF7E6;    /* soft cream for light-mode */
+}
+
+/* Dark mode custom colors */
+.dark {
+  --bg-deep: #0B1020;
+  --ink: #FDE68A;
+  --rose: #E11D48;
+  --haldi: #F59E0B;
+  --paan: #22C55E;
+  --peacock: #06B6D4;
+  --cream: #FFF7E6;
+}
+
+/* Mithila Theme Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF8E1; /* Mithila cream background */
+    color: #795548; /* Mithila brown text */
+}
+
+/* Dark mode styles */
+.dark body {
+    background-color: #0B1020; /* bg-deep */
+    color: #FDE68A; /* ink */
+}
+
+/* Navbar styles */
+.navbar {
+  background: linear-gradient(to bottom, rgba(255, 247, 230, 0.9) 0%, rgba(255, 247, 230, 0.7) 100%);
+  background-color: var(--cream);
+}
+
+.dark .navbar {
+  background: linear-gradient(to bottom, rgba(11, 16, 32, 0.85) 0%, rgba(11, 16, 32, 0.65) 100%);
+  background-color: var(--bg-deep);
+}
+
+/* Mithila-inspired heading fonts */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+/* Mithila border styles */
+.mithila-border {
+    border: 2px solid #E91E63;
+    border-radius: 8px;
+}
+
+.dark .mithila-border {
+    border: 2px solid #FFEB3B;
+}
+
+/* Mithila decorative elements */
+.mithila-divider {
+    height: 4px;
+    background: linear-gradient(to right, #E91E63, #FFEB3B, #4CAF50, #2196F3);
+    border-radius: 2px;
+    margin: 1rem 0;
+}
+
+.dark .mithila-divider {
+    background: linear-gradient(to right, #FFEB3B, #E91E63, #4CAF50, #2196F3);
+}
+
+/* Mithila button styles */
+.mithila-button {
+    background: linear-gradient(45deg, #E91E63, #FF9800);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(233, 30, 99, 0.3);
+}
+
+.mithila-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(233, 30, 99, 0.4);
+}
+
+.dark .mithila-button {
+    background: linear-gradient(45deg, #FF5722, #FF9800);
+    box-shadow: 0 4px 8px rgba(255, 87, 34, 0.3);
+}
+
+.dark .mithila-button:hover {
+    box-shadow: 0 6px 12px rgba(255, 87, 34, 0.4);
+}
+
+.mithila-button-secondary {
+    background: linear-gradient(45deg, #2196F3, #4CAF50);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(33, 150, 243, 0.3);
+}
+
+.mithila-button-secondary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(33, 150, 243, 0.4);
+}
+
+.dark .mithila-button-secondary {
+    background: linear-gradient(45deg, #004D40, #4CAF50);
+    box-shadow: 0 4px 8px rgba(0, 77, 64, 0.3);
+}
+
+.dark .mithila-button-secondary:hover {
+    box-shadow: 0 6px 12px rgba(0, 77, 64, 0.4);
+}
+
+/* Mithila card styles */
+.mithila-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border: 1px solid #FFEB3B;
+    transition: all 0.3s ease;
+}
+
+.mithila-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(233, 30, 99, 0.2);
+}
+
+.dark .mithila-card {
+    background: #2d3748;
+    border: 1px solid #4a5568;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.dark .mithila-card:hover {
+    box-shadow: 0 12px 24px rgba(233, 30, 99, 0.3);
+}
+
+/* Mithila section backgrounds */
+.mithila-bg-primary {
+    background-color: #FFF8E1;
+}
+
+.dark .mithila-bg-primary {
+    background-color: #0B1020;
+}
+
+.mithila-bg-secondary {
+    background-color: #FFECB3;
+}
+
+.dark .mithila-bg-secondary {
+    background-color: #1e293b;
+}
+
+.mithila-text-primary {
+    color: #795548;
+}
+
+.dark .mithila-text-primary {
+    color: #FDE68A;
+}
+
+.mithila-text-secondary {
+    color: #E91E63;
+}
+
+.dark .mithila-text-secondary {
+    color: #FFEB3B;
+}
+
+/* Scroll behavior */
+html {
+    --scroll-behavior: smooth !important;
+    scroll-behavior: smooth !important;
+}
+
+html:not([data-scroll="0"]) .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 247, 230, 0.95) !important;
+    opacity: 1.9;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s linear;
+    padding: 0px !important;
+    z-index: 3;
+    border-bottom: 2px solid #E11D48;
+    backdrop-filter: blur(10px);
+}
+
+.dark html:not([data-scroll="0"]) .navbar {
+    background-color: rgba(11, 16, 32, 0.95) !important;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid #06B6D4;
+    backdrop-filter: blur(10px);
+}
+
+.leafbutton {
+    border-radius: 0px 30px 30px 40px;
+}
+
+.banner-image {
+    background-image: url('/assets/banner/shapes.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
+
+hr {
+    border-color: rgba(196, 196, 196, 0.65);
+}
+
+.dark hr {
+    border-color: rgba(74, 85, 104, 0.65);
+}
+
+.w-270 {
+    width: 270px;
+}
+
+
+@media screen and (min-width :1000px) {
+    .lh-96 {
+        line-height: 96px !important;
+    }
+
+    .lh-81 {
+        line-height: 81px !important;
+    }
+
+    .lh-33 {
+        line-height: 33px !important;
+    }
+}
+
+.bg-image-what {
+    background-image: url('/assets/clientsay/bgimage.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* Footer */
+
+.footer-icons {
+    box-shadow: 0px 19px 28px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 50%;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dark .footer-icons {
+    box-shadow: 0px 19px 28px rgba(0, 0, 0, 0.3);
+    background-color: rgba(45, 55, 72, 0.25);
+}
+
+.footer-icons {
+    transition: .5s;
+}
+
+.footer-icons:hover {
+    transform: translateY(-8px);
+}
+
+.footer-fb-icons {
+    box-shadow: 0px 19px 28px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 50%;
+    padding: 10px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dark .footer-fb-icons {
+    box-shadow: 0px 19px 28px rgba(0, 0, 0, 0.3);
+    background-color: rgba(45, 55, 72, 0.25);
+}
+
+.footer-fb-icons {
+    transition: .5s;
+}
+.footer-fb-icons:hover {
+    transform: translateY(-8px);
+}
+
+.space-links {
+    transition: .3s;
+}
+
+.space-links:hover {
+    letter-spacing: 1px;
+}

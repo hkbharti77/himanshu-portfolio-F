@@ -1,0 +1,95 @@
+HIMANSHU BHARTI 📍 Saharsa, Bihar, India | 📞 +91 7050047159 | ✉ hkbharti77@gmail.com | 🔗 LinkedIn | 🔗 GitHub
+SUMMARY
+Software Development Engineer with expertise in Java, Python, Data Structures & Algorithms, and Full
+Stack Development. Proficient in designing scalable, high-performance applications and implementing
+efficient data structures for advanced problem-solving. Skilled in basic data analytics, leveraging
+Python for data manipulation and insights. Passionate about optimizing system performance and
+delivering robust, business-driven software solutions.
+EXPERIENCE
+Salesforce Developer Virtual Internship
+Salesforce
+Dec 2023 - Jan 2024
+Built and customized Salesforce applications using Apex, Lightning, and automation tools.
+Earned Apex Specialist and Process Automation badges, showcasing expertise in object-oriented programming
+and process automation.
+Developed modular applications using best coding practices and efficient data handling.
+Full Stack Developer Internship
+QSpiders | Noida, India
+Designed and developed scalable web applications using Java, Spring Boot, Hibernate, and MySQL.
+Implemented RESTful APIs and optimized database queries for performance.
+Applied Data Structures & Algorithms (DSA) to improve system efficiency and response times.
+Worked in an Agile environment, collaborating with cross-functional teams to deliver optimized solutions.
+Trainee Software Engineer – AI-Ready Full-Stack
+Mobiloitte Technologies India Private Limited | New Delhi, India
+Contributing to AI-ready web and mobile development projects.
+Working on full-stack tasks including front-end, back-end, and integrations.
+Participating in structured training modules, technical assessments, and team meetings.
+Gaining hands-on experience in AI-driven solutions and full-stack development practices.
+Engaging in problem-solving, code reviews, and real-world project implementation.
+PROJECTS
+AI-Powered Multi-Format RAG Chatbot System
+Tech Stack: Python, FastAPI, React, Next.js, TypeScript, Tailwind CSS, Firebase, SQLAlchemy, MySQL, Docker,
+LangChain, FAISS, Transformers
+Built a full-stack RAG chatbot system with React (TypeScript), Next.js, Tailwind CSS, and Firebase for the frontend
+and FastAPI, Python, SQLAlchemy, MySQL, Docker for the backend.
+Implemented semantic search & NLP using LangChain, FAISS, Transformers, EasyOCR, and OpenCV to process
+multi-format documents (PDF, DOCX, XLSX).
+Developed secure authentication (JWT, Firebase) and an admin dashboard with analytics, document management,
+and user tracking.
+Added real-time chat, helpdesk ticketing, and scalable microservices architecture to enhance customer support
+features.
+Shipping Connectivity Ontology (LSCI) Project
+Tech Stack: Python, Flask, Pandas, REST APIs, Swagger/OpenAPI, Ontology Design, Knowledge Graphs.
+Built a data pipeline (ETL) using Python & Pandas to process UNCTAD shipping datasets with enrichment,
+validation, and normalization.
+Developed a Flask RESTful API with Swagger/OpenAPI documentation for accessing shipping connectivity and
+growth trends.
+Designed an ontology-driven knowledge graph to model economies, measurements, and time periods for trend
+analysis.
+Online Banking System
+Tech Stack: Spring Boot, Java, MySQL
+Developed a fully functional online banking application using Spring Boot, enabling users to manage their
+accounts, make transfers, and view transaction history.
+Implemented RESTful APIs to handle user authentication, account creation, balance checking, and transaction
+processing.
+Utilized MySQL for database management and integrated Spring Security to ensure secure access control and
+user authentication.
+Scalable Student Management System
+Tech Stack: Java, JDBC, MySQL
+Developed a high-performance CRUD-based system for student data management.
+Implemented secure authentication mechanisms using JDBC-based connectivity.
+Designed an intuitive UI and applied efficient data structures for fast retrieval.
+Solar Wireless EV Charging System (Final Year Project)
+Jan 2024 - May 2024
+Designed a sustainable energy solution for wireless EV charging.
+Applied data-driven algorithms to optimize energy transfer efficiency.
+TECHNICAL SKILLS
+Programming Languages: Java, C/C++, SQL,
+Python(Basic)
+Web Development: HTML, CSS, JavaScript
+Databases & RDBMS: MySQL, SQL Query Optimization
+Analytical Tools: MS Excel, MS PowerPoint, MS Word,
+SQL
+Concepts: OOP, DSA, Data Manipulation
+EDUCATION
+B.Tech in ECE
+Bihar Engineering University | 2020 - 2024
+CGPA: 7.8/10
+12th Standard
+R M College Saharsa
+Percentage: 68%
+SOFT SKILLS
+Problem-Solving & Algorithmic Thinking
+Scalable System Design & Optimization
+Communication & Team Collaboration
+Adaptability & Quick Learning
+CERTIFICATIONS & ACHIEVEMENTS
+Apex Specialist, Process Automation Specialist 
+Salesforce Trailhead
+Java (Basic) Certificate - HackerRank
+SQL (Basic) Certificate - HackerRank
+Software Engineer Intern Certificate - HackerRank
+Participated in E-Yantra Robotics Program – Govt.
+Engineering College, Banka
+Team Captain – Kabaddi Team (Leadership &
+Collaboration)
