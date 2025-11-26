@@ -8,10 +8,8 @@ export const metadata = {
   title: 'StackSphere - Full-Stack Development & AI Solutions',
   description: 'Professional full-stack development services. Building scalable web applications, APIs, AI-powered features, and modern user interfaces. Fast, secure, and production-ready solutions.',
   icons: {
-    icon: [
-      { url: '/favicon.ico', sizes: 'any' },
-      { url: '/icon.svg', type: 'image/svg+xml' },
-    ],
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
     apple: '/icon.svg',
   },
 }
